@@ -203,18 +203,18 @@ var functions = {
       let attachments = [{
         fallback: text,
         title: `<${jiraUrl}/browse/${issue.key}|${issue.key}: ${issue.fields.summary}>`,
-        thumb_url: `${comment.author.avatarUrls["48x48"]}`,
+        // thumb_url: `${comment.author.avatarUrls["48x48"]}`,
         fields: [
-          {
-            title: "Type",
-            value: `${issue.fields.issuetype.name}`,
-            short: true
-          },
-          {
-            title: "Status",
-            value: `${issue.fields.status.name}`,
-            short: true
-          },
+        //  {
+        //    title: "Type",
+        //    value: `${issue.fields.issuetype.name}`,
+        //    short: true
+        //  },
+        //  {
+        //    title: "Status",
+        //    value: `${issue.fields.status.name}`,
+        //    short: true
+        //  },
           {
             title: "Comment",
             value: `${comment.body}`,
